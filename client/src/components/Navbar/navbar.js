@@ -14,6 +14,8 @@ const Nav = () => {
             <a href="#Explore">Explore</a>
             <a href="#Dashboard">Dashboard</a>
             <a href="#Login">Login</a>
+            <a href="#Login">Logout</a>
+            <a href="#Login">Signup</a>
         </div>
       </Navbar.End>
     </Navbar>
