@@ -1,8 +1,14 @@
+// import Container from "./components/Container/pageContainer";
+import Nav from "./components/Navbar/navbar";
+import Foot from "./components/Footer/footer";
+import Home from "./pages/Home";
 
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div>
+      <Nav />
+      <Home />
+      <Foot />
+    </div>
   )
 }
